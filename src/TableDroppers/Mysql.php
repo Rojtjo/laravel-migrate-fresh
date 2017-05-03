@@ -2,8 +2,8 @@
 
 namespace Spatie\MigrateFresh\TableDroppers;
 
-use Illuminate\Support\Facades\DB;
 use stdClass;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Schema;
 
 class Mysql implements TableDropper
