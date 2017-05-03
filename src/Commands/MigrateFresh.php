@@ -2,7 +2,7 @@
 
 namespace Spatie\MigrateFresh\Commands;
 
-use DB;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Console\Command;
 use Illuminate\Console\ConfirmableTrait;
 use Spatie\MigrateFresh\TableDropperFactory;

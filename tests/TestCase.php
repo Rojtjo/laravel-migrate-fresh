@@ -2,8 +2,8 @@
 
 namespace Spatie\MigrateFresh\Test;
 
-use DB;
-use Schema;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Schema;
 use stdClass;
 use Illuminate\Database\Schema\Blueprint;
 use Orchestra\Testbench\TestCase as Orchestra;
